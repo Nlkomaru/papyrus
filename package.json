@@ -1,0 +1,16 @@
+{
+	"name": "papyrus",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"check": "biome check ./ --write",
+    "dev" : "pnpx concurrently \"pnpm --filter ./app-backend dev\" \"pnpm --filter ./app-frontend dev\""
+	},
+	"keywords": [],
+	"author": "Nikomaru",
+	"license": "CC0-1.0",
+	"packageManager": "pnpm@10.18.0",
+	"devDependencies": {
+		"@biomejs/biome": "2.2.5"
+	}
+}

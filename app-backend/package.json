@@ -1,0 +1,25 @@
+{
+	"name": "app-backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "wrangler dev",
+		"build": "tsc src/index.ts --outDir dist",
+		"start": "NODE_ENV=production node dist/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "CC0-1.0",
+	"packageManager": "pnpm@10.18.0",
+	"dependencies": {
+		"@elysiajs/node": "^1.4.1",
+		"elysia": "^1.4.9"
+	},
+	"devDependencies": {
+		"@types/node": "^22.18.8",
+		"tsx": "^4.20.6",
+		"typescript": "^5.9.3",
+		"wrangler": "^4.42.0"
+	}
+}
